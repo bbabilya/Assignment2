@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.block1{
+    width: 800px;
+    height: 400px;
+    background-color:grey;
+    display: flex;
+}
