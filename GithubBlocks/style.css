@@ -31,7 +31,7 @@ img{
     background-color: #d4a373;
     padding: 10px 10px 10px 10px;
     margin: auto;
-    
+    display: block;
 
 }
 
@@ -47,10 +47,10 @@ img{
 }
 
 .block2{
-    width:700px;
+    width: 700px;
     height: 200px;
     background-color: #fefae0;
-    display:  flex;
+    display: flex;
     justify-content:space-around;
     padding-top: 10px;
     padding-bottom: 20px;
