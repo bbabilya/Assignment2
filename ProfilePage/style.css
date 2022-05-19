@@ -4,22 +4,36 @@
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-flex;  
+}
+
+.banner {
+    background-color: black;
+    width: auto;
+    height: 40px;
+}
+
 .nav {
     background-color: black;
     margin: auto;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-between;
 }
 
 .navlinks {
     width: 380px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     color: white;
+    justify-content: space-around;
 }
 
-.navlinks a{
+.navlinks a {
     text-decoration: none;
     color: white;
 }
@@ -29,9 +43,7 @@
     color: white;
     width: 70px;
     height: 20px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+    border: 2px solid black;
     box-shadow: 3px 2px black;
     align-self: center;
 }
@@ -57,14 +69,14 @@
     flex: 2;
 }
 
-.about-me{
+.about-me {
     background: linear-gradient(#1886bd 25%,#ffffff 0%);
     margin-top: 10px;
     border: 2px solid black;
     border-radius: 25px;
 }
 
-.about-icon{
+.about-icon {
     width: 100px;
     height: 100px;
     border: 2px solid black;
@@ -73,13 +85,13 @@
     margin-top: 15px;
 }
 
-.about-icon img{
+.about-icon img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-.about-text{
+.about-text {
     height: 150px;
     width: 350px;
     margin-left: 20px;
@@ -87,13 +99,13 @@
     padding-top: 10px;
 }
 
-.about-text img{
+.about-text img {
     width: 10px;
     height: 15px;
     vertical-align: center;
 }
 
-.education{
+.education {
     background: linear-gradient(hsl(0, 0%, 0%) 30%,#ffffff 0%);
     height: 150px;
     margin-top: 15px;
@@ -103,11 +115,12 @@
     text-indent: 20px;
 }
 
-.education-text{
+.education-text {
     height: 180px;
     color: black;
     padding: 10px 0px;
 }
+
 h4 {
     color: rgb(167, 167, 167);
     font-weight: normal;
@@ -119,7 +132,7 @@ h4 {
     flex: 1;
 }
 
-.friend-requests{
+.friend-requests {
     background: linear-gradient(hsl(0, 0%, 0%) 25%,#ffffff 0%);
     margin-top: 10px;
     margin-left: 10px;
@@ -131,7 +144,7 @@ h4 {
     color: white;
 }
 
-.friend-requests h3{
+.friend-requests h3 {
     text-indent: 5px;
 
 }
@@ -199,27 +212,27 @@ h4 {
     font-size: 15px;
 }
 
-.connections h3{
+.connections h3 {
     color: white;
     margin-top: 12px;
     text-indent: 10px;
 }
 
-.connections-list{
+.connections-list {
     display: flex;
     flex-direction: column;
 }
 
-.connections-list ul{
+.connections-list ul {
     display: flex;
     flex-direction: column;
 }
 
-.connections-list li{
+.connections-list li {
     align-items: center;
 }
 
-.connections-list img{
+.connections-list img {
     width: 40px;
     border-radius: 50%;
     margin: 10px 10px;
@@ -230,12 +243,4 @@ h4 {
     width: 305px;
     padding: 10px 0px;
     text-indent: 10px;
-}
-
-ul {
-    list-style-type: none;
-}
-li {
-    display: inline-flex;
-    
 }
